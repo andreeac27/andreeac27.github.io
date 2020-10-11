@@ -18,8 +18,8 @@ p#chicken, p#beef, p#sushi {
 	margin-top: 0;
 	margin-right: 0;
 	margin-left: auto;
-	width: 150px;
-	height: 30px;
+	width: 30%;
+	height: 100%;
 	color: white;
 	text-align: center;
 	border: 1px solid black;
@@ -40,11 +40,17 @@ p#sushi {
 }
 
 div#container {
-	background-color: #d9d9d9;
-	border: 1px solid black;
 	margin-bottom: 20px;
-	margin-right: 10px;
-	margin-left: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+}
+
+section {
+	background-color: #d9d9d9;
+	border:	1px solid black;
+	width: 100%;
+	position: relative;
 }
 
 .lorem {
@@ -81,7 +87,7 @@ div#container {
 		width: 25%;
 	}
 	.col-lg-4 {
-		width: 32%;
+		width: 33.33%;
 	}
 	.col-lg-5 {
 		width: 41.66%;
@@ -135,7 +141,7 @@ div#container {
 		width: 41.66%;
 	}
 	.col-md-6 {
-		width: 47.5%;
+		width: 50%;
 	}
 	.col-md-7 {
 		width: 58.33%;
@@ -153,6 +159,6 @@ div#container {
 		width: 91.66%;
 	}
 	.col-md-12 {
-		width: 97.5%;
+		width: 100%;
 	}
 }
