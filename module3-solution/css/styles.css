@@ -1,3 +1,9 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 body {
   font-size: 16px;
   color: #fff;
@@ -54,19 +60,21 @@ body {
 	color: #e6005c;
 }
 
-#chicken-section {
-	height: 1000px;
-	background-color: #daffb3;
+#chicken-section, #beef-section, #sushi-section {
 	color: black;
 	font-family: 'Lora', serif;
 }
 
-#chicken-section h3 {
+#chicken-section h3, #beef-section h3, #sushi-section h3 {
 	color: #e6005c;
 	font-weight: bold;
-	text-align: center;
 	font-size: 125%;
 	padding-top: 10px;
+}
+
+#chicken-section section, #beef-section section,  #sushi-section section {
+	background-color: #daffb3;
+	width: 100%;
 }
 
 .lorem {
@@ -75,6 +83,13 @@ body {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
+.row {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
