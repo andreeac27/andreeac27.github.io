@@ -1,1 +1,96 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #ffcce0;
+  font-family: 'Oxygen', sans-serif;
+}
 
+/** HEADER **/
+#header-nav {
+  background-color: #e6005c;
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* MAIN PAGE */
+
+#our-menu-title {
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	color: #e6005c;
+}
+
+#chicken-section {
+	height: 1000px;
+	background-color: #daffb3;
+	color: black;
+	font-family: 'Lora', serif;
+}
+
+#chicken-section h3 {
+	color: #e6005c;
+	font-weight: bold;
+	text-align: center;
+	font-size: 125%;
+	padding-top: 10px;
+}
+
+.lorem {
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	#collapsable-nav {
+	  background-color:  #ccff99;
+	}
+}
